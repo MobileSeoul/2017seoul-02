@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">서울 in생샷</string>
+    <string name="title_activity_primary">서울 in생샷</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">1360905357355830</string>
+    <string name="languageCheck">Korean ver.</string>
+
+
+    <string-array name="device_type">
+        <item>iPhone 6/6S</item>
+        <item>iPhone 6+/6S+</item>
+        <item>iPhone 7</item>
+        <item>iPhone 7+</item>
+        <item>Galaxy S6</item>
+        <item>Galaxy S7</item>
+        <item>Galaxy S8</item>
+        <item>LG V30(+)</item>
+        <item>LG Q6(+)</item>
+        <item>LG Q8</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="season">
+        <item>봄</item>
+        <item>여름</item>
+        <item>가을</item>
+        <item>겨울</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>#야경</item>
+        <item>#공원</item>
+        <item>#박물관</item>
+        <item>#벽화</item>
+        <item>#골목</item>
+        <item>#카페</item>
+        <item>#추억</item>
+        <item>#노을</item>
+        <item>#여름</item>
+        <item>#남산</item>
+        <item>#도시</item>
+        <item>#여유</item>
+        <item>#자연</item>
+        <item>#한강</item>
+        <item>#가을</item>
+        <item>#봄</item>
+        <item>#겨울</item>
+        <item>#꽃</item>
+        <item>#산</item>
+        <item>#강</item>
+        <item>#산책</item>
+        <item>#구름</item>
+        <item>#타워</item>
+        <item>#장미</item>
+        <item>#나무</item>
+        <item>#벚꽃</item>
+        <item>#데이트</item>
+        <item>#기찻길</item>
+        <item>#분수</item>
+        <item>#전망</item>
+        <item>#축제</item>
+        <item>#건축물</item>
+        <item>#행사</item>
+        <item>#고궁</item>
+        <item>#거리</item>
+        <item>#경기장</item>
+        <item>기타</item>
+    </string-array>
+
+    <string name="title_home"></string>
+    <string name="title_search"></string>
+    <string name="title_album"></string>
+    <string name="title_notifications"></string>
+    <string name="title_login"></string>
+
+    <string name="activity_title_notifications">공지사항</string>
+
+    <string name="info_phone">휴대폰 정보:</string>
+    <string name="info_filter">필터 정보:</string>
+    <string name="info_metro">지하철 정보:</string>
+    <string name="info_bus">버스 정보:</string>
+    <string name="info_bicycle">따릉이 정보:</string>
+    <string name="info_today">오늘</string>
+    <string name="info_tomorrow">내일</string>
+    <string name="info_dayafter">모레</string>
+
+    <string name="post_content">내용을 입력하세요.</string>
+    <string name="post_phone">휴대폰 기종</string>
+    <string name="post_filter">카메라 어플</string>
+    <string name="post_season">#봄,#여름 ...</string>
+    <string name="post_theme">#꽃,#노을 ...</string>
+    <string name="post_btn">올리기</string>
+
+    <string name="dialog_msg">로그인 하시겠습니까?</string>
+    <string name="dialog_msg_lo">로그아웃 하시겠습니까?</string>
+    <string name="dialog_confirm">확인</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="dialog_out">로 그 아 웃</string>
+
+    <string name="info_tip_theme">테마정보:</string>
+    <string name="info_tip_info">입장정보:</string>
+    <string name="info_tip_tip">사진 팁:</string>
+
+</resources>

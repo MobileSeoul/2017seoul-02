@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:elevation="4dp">
+
+        <RelativeLayout
+            android:id="@+id/rel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent">
+
+            <com.github.oliveiradev.image_zoom.lib.widget.ImageZoom
+                android:id="@+id/img_best_cover"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sunny"
+                android:transitionName="image" />
+
+
+            <ImageView
+                android:id="@+id/dislike"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/email_layout"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="-8dp"
+                android:src="@drawable/dislikefloating"
+                app:srcCompat="@drawable/dislikefloating" />
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/email_layout"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="-10dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/likefloating" />
+
+            <TextView
+                android:id="@+id/best_reply_likeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/email_layout"
+                android:layout_alignLeft="@+id/dislike"
+                android:layout_alignStart="@+id/dislike"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:text="0 likes "
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_best_cover">
+
+                <TextView
+                    android:id="@+id/txt_best_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tip_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_layout">
+
+                <TextView
+                    android:id="@+id/txt_best_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="4"
+                    android:paddingRight="10dp"
+                    android:text="TIP"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tip_layout"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sharp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.6"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="#"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/txt_best_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="Theme1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/sharp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.6"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="#"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/txt_best_theme2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="Theme2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"></LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/card_view"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/best_reply_commentFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="center"
+            android:src="@android:drawable/ic_menu_edit"
+            app:backgroundTint="@android:color/transparent"
+            app:elevation="0dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/best_reply_commentET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="bottom"
+                android:layout_toLeftOf="@+id/best_reply_commentBT"
+                android:layout_toStartOf="@+id/best_reply_commentBT"
+                android:background="@drawable/commentback"
+                android:elevation="1dp"
+                android:hint="INPUT YOUR MESSAGE"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:maxLength="100"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:visibility="gone">
+
+            </EditText>
+
+            <ImageView
+                android:id="@+id/best_reply_commentBT"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone"
+
+                app:srcCompat="@drawable/qnabutton" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_reply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            card_view:stackFromEnd="false"
+
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coverFrameLayout"
+    android:layout_width="120dp"
+    android:layout_height="180dp"
+    android:foreground="@drawable/cover_selector"
+    android:orientation="vertical"
+    android:clickable="true"
+    >
+
+   <ImageView
+       android:id="@+id/image"
+       android:layout_width="120dp"
+       android:layout_height="180dp"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:cropToPadding="true"
+       android:scaleType="centerCrop" />
+   <TextView
+       android:id="@+id/label"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceSmallInverse"
+       android:padding="8dp"
+       tools:text="Title"
+       android:textColor="@android:color/white"
+       android:background="@drawable/label_background"
+       android:gravity="center"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:visibility="gone"/>
+</FrameLayout>

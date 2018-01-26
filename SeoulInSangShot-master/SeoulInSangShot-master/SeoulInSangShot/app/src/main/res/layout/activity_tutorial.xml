@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+
+    <Button
+        android:id="@+id/btn_tuto_pre"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_pre" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_tuto_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/tuto_main" />
+
+        <ImageView
+            android:id="@+id/iv_tuto_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tuto_area" />
+
+        <ImageView
+            android:id="@+id/iv_tuto_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tuto_theme" />
+
+        <ImageView
+            android:id="@+id/iv_tuto_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tuto_detail" />
+
+        <ImageView
+            android:id="@+id/iv_tuto_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tuto_album" />
+
+        <ImageView
+            android:id="@+id/iv_tuto_eng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tuto_eng" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_tuto_next"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_next" />
+
+</FrameLayout>

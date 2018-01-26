@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167959611548",
+    "project_id": "seoulinsangshot"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167959611548:android:5d75b4d05a33e80d",
+        "android_client_info": {
+          "package_name": "onetwopunch.seoulinsangshot.com.seoulinsangshot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167959611548-gslgrico1og9ueda3q3l9m7nc99lotv5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "167959611548-faftd4u7teaqg4amts13sdlmqimjn5u6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "onetwopunch.seoulinsangshot.com.seoulinsangshot",
+            "certificate_hash": "26e842f40ae5d82619d9aaa91256b63eb3dbe124"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjFWWk5hHy5NOMo-vdxSr1LXFqjVAaHgk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

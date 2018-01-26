@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="onetwopunch.seoulinsangshot.com.seoulinsangshot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".View.BaseActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".View.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PrimaryActivity"
+            android:label="@string/title_activity_primary"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".View.DetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".View.SelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.PostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.Best_ReplyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".View.NotifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.AlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.NotifyDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".View.LoadingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".View.TutorialActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

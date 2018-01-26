@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comment_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/commentFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_edit"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/testEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:maxLength="100"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="bottom"
+            android:layout_toLeftOf="@+id/checkImageView"
+            android:layout_toStartOf="@+id/checkImageView"
+            android:background="@drawable/commentback"
+            android:elevation="1dp"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:visibility="gone">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/checkImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone"
+
+            app:srcCompat="@drawable/qnabutton" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Seoul In Sang Shot</string>
+    <string name="title_activity_primary">Seoul BestPic.</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_app_id">1360905357355830</string>
+    <string name="languageCheck">English ver.</string>
+
+
+    <string-array name="device_type">
+        <item>iPhone 6/6S</item>
+        <item>iPhone 6+/6S+</item>
+        <item>iPhone 7</item>
+        <item>iPhone 7+</item>
+        <item>Galaxy S6</item>
+        <item>Galaxy S7</item>
+        <item>Galaxy S8</item>
+        <item>LG V30(+)</item>
+        <item>LG Q6(+)</item>
+        <item>LG Q8</item>
+        <item>Etc</item>
+    </string-array>
+
+    <string-array name="season">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>#Night View</item>
+        <item>#Park</item>
+        <item>#Museum</item>
+        <item>#Mural</item>
+        <item>#Backstreet</item>
+        <item>#Cafe</item>
+        <item>#Memory</item>
+        <item>#Sunset</item>
+        <item>#Summer</item>
+        <item>#Namsan</item>
+        <item>#Urban</item>
+        <item>#Composure</item>
+        <item>#Nature</item>
+        <item>#Han River</item>
+        <item>#Fall</item>
+        <item>#Spring</item>
+        <item>#Winter</item>
+        <item>#Flower</item>
+        <item>#Mountain</item>
+        <item>#River</item>
+        <item>#Walk</item>
+        <item>#Cloud</item>
+        <item>#Tower</item>
+        <item>#Rose</item>
+        <item>#Tree</item>
+        <item>#Cherry Blossoms</item>
+        <item>#Have a Date</item>
+        <item>#Track</item>
+        <item>#Fountain</item>
+        <item>#View</item>
+        <item>#Festival</item>
+        <item>#Architecture</item>
+        <item>#Event</item>
+        <item>#Ancient Palace</item>
+        <item>#Street</item>
+        <item>#Stadium</item>
+        <item>Etc</item>
+    </string-array>
+
+    <string name="title_home"></string>
+    <string name="title_search"></string>
+    <string name="title_album"></string>
+    <string name="title_notifications"></string>
+    <string name="title_login"></string>
+
+    <string name="activity_title_notifications">Notifications</string>
+
+    <string name="info_phone">Smartphone:</string>
+    <string name="info_filter">Application:</string>
+    <string name="info_metro">Subway:</string>
+    <string name="info_bus">Bus stop:</string>
+    <string name="info_bicycle">DDarengi:</string>
+    <string name="info_today">TOD</string>
+    <string name="info_tomorrow">TOM</string>
+    <string name="info_dayafter">DAT</string>
+
+    <string name="post_content">Introduce your picture.</string>
+    <string name="post_phone">Device</string>
+    <string name="post_filter">Camera App</string>
+    <string name="post_season">#Fall,#Summer...</string>
+    <string name="post_theme">#Tree,#Cafe...</string>
+    <string name="post_btn">UPLOAD</string>
+
+    <string name="dialog_msg">Sign in Application?</string>
+    <string name="dialog_msg_lo">Sign out Application?</string>
+    <string name="dialog_confirm">OK</string>
+    <string name="dialog_cancel">NO</string>
+    <string name="dialog_out">Sign Out</string>
+
+    <string name="info_tip_theme">Theme:</string>
+    <string name="info_tip_info">Information:</string>
+    <string name="info_tip_tip">Tip:</string>
+
+</resources>
